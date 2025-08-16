@@ -1,13 +1,13 @@
 # Image Classification with CNN and Image Augmentation
 
-## 📌 Project Overview
+##  Project Overview
 This project builds a Convolutional Neural Network (CNN) to classify images into two categories.  
 We used **Image Augmentation** to artificially increase the size of the dataset and improve the model’s generalization.  
 The model is trained using Keras with TensorFlow backend.  
 
 ---
 
-## 📂 Dataset
+##  Dataset
 - The dataset is divided into:
   - **Training set**: 4438 images (2 classes)
   - **Testing set**: 1114 images (2 classes)
@@ -15,7 +15,7 @@ The model is trained using Keras with TensorFlow backend.
 
 ---
 
-## 🛠 Libraries Used
+##  Libraries Used
 - **TensorFlow / Keras** → For building and training the CNN model.  
 - **ImageDataGenerator** → For image augmentation (rotation, zoom, flipping).  
 - **NumPy** → For numerical computations.  
@@ -23,7 +23,7 @@ The model is trained using Keras with TensorFlow backend.
 
 ---
 
-## ⚙️ Image Preprocessing
+##   Image Preprocessing
 - All images are resized to **224x224** pixels.  
 - Pixel values scaled from **0–255 → 0–1**.  
 - Augmentation applied on training images:
@@ -33,13 +33,13 @@ The model is trained using Keras with TensorFlow backend.
 
 ---
 
-## 🏗 Model Training
+##  Model Training
 - Data is loaded in **batches of 32**.  
 - Model learns over multiple **epochs** (full passes over training data).   
 
 ---
 
-## 🚀 Flow of the Project
+##  Flow of the Project
 1. Load dataset (train/test).  
 2. Apply preprocessing and augmentation using `ImageDataGenerator`.  
 3. Create CNN model.  
@@ -50,13 +50,13 @@ The model is trained using Keras with TensorFlow backend.
 
 ---
 
-## 📊 Results
+##  Results
 - Model outputs **binary classification (0 or 1)** for each image.  
 - Training and validation accuracy/loss can be visualized using Matplotlib.  
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 ```bash
 # Clone repository
 git clone <[your-repo-link](https://github.com/NoorUlEmanBukhari/HeartDiseasePrediction-2-)>
