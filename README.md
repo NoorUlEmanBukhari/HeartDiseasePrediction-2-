@@ -59,7 +59,7 @@ The model is trained using Keras with TensorFlow backend.
 ## ▶️ How to Run
 ```bash
 # Clone repository
-git clone <your-repo-link>
+git clone <[your-repo-link](https://github.com/NoorUlEmanBukhari/HeartDiseasePrediction-2-)>
 
 # Install dependencies
 pip install tensorflow numpy matplotlib
